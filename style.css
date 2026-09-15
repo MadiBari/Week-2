@@ -3,3 +3,7 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+
+.SWIC-active {
+  color: #3c3f9d; 
+}
