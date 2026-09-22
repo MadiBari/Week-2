@@ -11,12 +11,11 @@ $(document).ready(function () {
   $('.SWIC').on('click', function () {
     TextColorChange(this);
   });
-  function ToggleName(element) {
-  $(element).toggle();
-}
-});
 
-$('.SWIC').length
+$('#nameToggle').on('click', function () {
+  ToggleName('h1');
+});
+});
 
  $(document).ready(function() {
       alert("Hello World");
