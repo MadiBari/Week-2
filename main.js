@@ -5,3 +5,8 @@ $(document).ready(function () {
 });
 
 $('.SWIC').length
+
+
+ $(document).ready(function() {
+      alert("Hello World");
+         });
