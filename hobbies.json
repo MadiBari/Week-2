@@ -1,0 +1,13 @@
+{
+  "hobbies": [
+    { "name": "Video Games", "link": "https://store.steampowered.com/" },
+    { "name": "Anime" },
+    { "name": "Gardening" },
+    { "name": "Crochet" },
+    { "name": "Hiking" },
+    { "name": "Swimming" },
+    { "name": "Embroidery" },
+    { "name": "Digital Art" },
+    { "name": "Dungeons & Dragons", "link": "https://www.dndbeyond.com/en" }
+  ]
+}
