@@ -38,7 +38,6 @@ $('#getHobbies').on('click', function () {
     $('body').append(hobbyList);
   });
 });
-});
 
 // Style odd and even table rows differently
 $('#scheduleTable tr:odd').css('background-color', '#e8e8f5');
@@ -52,6 +51,8 @@ $('span:first').css({
 $('span:last').css({
   'font-style': 'italic',
   'background-color': 'green'
+});
+
 });
 
  $(document).ready(function() {
