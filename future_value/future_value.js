@@ -20,8 +20,7 @@ var calculateClick = function () {
             futureValue += futureValue * rate / 100;
         }
 
-        // Output
-        $("#future_value").val(futureValue.toFixed(2));
+        $("#future_value").val(futureValue.toFixed(0));
     }
 }
 
