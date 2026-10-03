@@ -40,6 +40,20 @@ $('#getHobbies').on('click', function () {
 });
 });
 
+// Style odd and even table rows differently
+$('#scheduleTable tr:odd').css('background-color', '#e8e8f5');
+$('#scheduleTable tr:even').css('background-color', '#ffffff');
+
+// Give the first and last span their own styles
+$('span:first').css({
+  'font-weight': 'bold',
+  'background-color': 'yellow'
+});
+$('span:last').css({
+  'font-style': 'italic',
+  'background-color': 'green'
+});
+
  $(document).ready(function() {
       alert("Hello World");
          });
