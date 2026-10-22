@@ -53,10 +53,9 @@ $('span:last').css({
   'background-color': 'green'
 });
 
+alert("Hello World");
+
 });
 
- $(document).ready(function() {
-      alert("Hello World");
-         });
 
 
