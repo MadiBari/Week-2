@@ -80,9 +80,7 @@ $('#getHobbies').on('click', function () {
   });
 });
 
-/* AJAX CALL #2 (data source: API Ninjas Chuck Norris API, external)
-   Get a free key at https://api-ninjas.com/register and paste it below. */
-var API_NINJAS_KEY = 'PASTE_YOUR_API_KEY_HERE';
+var API_NINJAS_KEY = 'KUCirToWrvnscnGdcoBVIcvZ5XXhX435jPwhMHuN';
 
 $('#getJoke').on('click', function () {
   var $button = $(this);
