@@ -1,0 +1,27 @@
+.anime-btn {
+  padding: 0.7rem 1.4rem;
+  font-size: 1rem;
+  border: 2px solid #3b3fd8;
+  border-radius: 8px;
+  background: #3b3fd8;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.anime-btn:hover { background: #5559e6; }
+.anime-btn:active { transform: scale(0.95); }
+.anime-btn:focus-visible { outline: 3px solid #111; outline-offset: 3px; }
+
+.anime-btn.clicked {
+  background: #2a2b51;
+  color: #f6f6f7;
+}
+
+.anime-btn:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
