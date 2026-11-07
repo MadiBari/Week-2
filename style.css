@@ -7,3 +7,27 @@ h1 {
 .SWIC-active {
   color: #3c3f9d; 
 }
+
+/* AJAX output areas */
+.ajax-output {
+  margin: 0.75rem 0 1.5rem;
+  min-height: 1.5rem;
+}
+
+.ajax-status {
+  color: #555;
+  font-style: italic;
+}
+
+.ajax-error {
+  background: #fbe9e9;
+  color: #a3262a;
+  border: 1px solid #a3262a;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+}
+
+.joke-text {
+  border-left: 4px solid #3c3f9d;
+  padding-left: 0.8rem;
+}
